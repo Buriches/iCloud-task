@@ -100,42 +100,7 @@ $('#submit').click(function(){
 });
 
 
-
-// $(document).ready(function(){/* Чтоб не было бага с рывком при первой активации аккордеона */
-// 	$('.song-item__full').css('display', 'flex');
-// 	$('.song-item__full').slideUp(0);
-// });
-
-
-
-// $('.song-item').click(function(){
-// 	if ($(this).hasClass("activate")){
-// 		$('.toggle__plus').css('display', 'block');
-// 		$('.toggle__minus').css('display', 'none');
-// 		$('.song-item').removeClass('activate');
-// 		FullToUp();
-// 	}else{
-// 		FullToUp();
-// 		$('.song-item').removeClass('activate');
-// 		$(this).addClass('activate');
-// 		$('.toggle__plus').css('display', 'block');
-// 		$('.toggle__minus').css('display', 'none');
-// 		$('.activate > .song-item__preview > .song-item__toggle > .toggle__minus').css('display', 'block');
-// 		$('.activate > .song-item__preview > .song-item__toggle > .toggle__plus').css('display', 'none');
-// 		FullToDown();
-// 	};
-// });
-
-// function FullToDown(){
-// 	$('.activate > .song-item__full').slideDown(100);
-// 	$('.activate > .song-item__full').css('display', 'flex');
-
-// }
-// function FullToUp(){
-// 	$('.song-item__full').slideUp(100);
-// }
-// /* FORM ↓ */
-
+/* ANIMATE ↓ */
 $(document).ready(function(){/* Чтоб не было бага с рывком при первой активации аккордеона */
 	$('.song-item__full').css('display', 'flex');
 	$('.song-item__full').slideUp(0);
@@ -168,4 +133,3 @@ function FullToDown(){
 function FullToUp(){
 	$('.song-item__full').slideUp(100);
 }
-/* FORM ↓ */
